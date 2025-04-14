@@ -40,7 +40,4 @@ jobs:
         name: SetHome-Folia(Unzip-Me)
         path: |
           target/*.jar
-          dist/
-
-    - name: Useless step to show neofetch info?
-      run: neofetch
+          dists/
